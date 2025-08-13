@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* @theme {
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+} */
+body {
+    font-family: system-ui;
+}
+.tb {
+    border: 1px solid red;
+}
+/* TEMPLATE CSS */
+.nunito {
+    font-family: "nunito", font-sans;
+}
+
+.border-b-1 {
+    border-bottom-width: 1px;
+}
+
+.border-l-1 {
+    border-left-width: 1px;
+}
+
+hover\:border-none:hover {
+    border-style: none;
+}
+
+#sidebar {
+    transition: ease-in-out all 0.3s;
+    z-index: 9999;
+}
+
+#sidebar span {
+    opacity: 0;
+    position: absolute;
+    transition: ease-in-out all 0.1s;
+}
+
+#sidebar:hover {
+    width: 150px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    /*shadow-2xl*/
+}
+
+#sidebar:hover span {
+    opacity: 1;
+}
+
+/* MODAL */
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: opacity 0.3s ease;
+}
+
+.modal-container {
+    min-width: 600px;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+.fade-in-text {
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s forwards; /* Apply animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#text1 {
+    animation-delay: 0.5s; /* HELLO WORLD appears after 0.5s */
+}
+
+#text2 {
+    animation-delay: 2.5s; /* I'M STEPHEN appears after HELLO WORLD is fully visible (0.5s + 2s) */
+}
+
+#text3 {
+    animation-delay: 4.5s; /* NICE TO MEET YOU appears after I'M STEPHEN is fully visible (2.5s + 2s) */
+}
