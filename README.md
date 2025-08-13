@@ -1,4 +1,8 @@
-A PWA For Car Loan Payment Tracker (Personal Test Project)
-Laravel for backend
-VueJS for frontend
-InertiaJS for server-side routing
+<p>A PWA For Car Loan Payment Tracker (Personal Test Project)</p>
+<ul>
+    <li><b>Laravel</b> for backend</li>
+    <li><b>VueJS</b> for frontend</li>
+    <li><b>InertiaJS</b> for server-side routing</li>
+</ul>
+
+
