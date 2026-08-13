@@ -191,3 +191,9 @@ This project is a personal test project and is not intended as a financial or lo
 ---
 
 **Car Loan Payment Tracker — Keep track of your payments. Know your balance. 🚗💳**
+
+<img width="543" height="637" alt="CLPTPWALOGIN" src="https://github.com/user-attachments/assets/30e66a30-4936-4a47-8e1d-6d43a8bb5b95" />
+
+<img width="996" height="2160" alt="CLPTPWA" src="https://github.com/user-attachments/assets/84d51b0b-5f80-4e4b-b0be-2f6893c56c8f" />
+
+
